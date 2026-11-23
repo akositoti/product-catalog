@@ -44,3 +44,18 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   gap: 1.25rem;
 }
+
+.result-count {
+  margin: 0 0 1rem;
+  font-weight: 600;
+  color: #1d3b27;
+}
+
+.empty-state {
+  padding: 2rem 1rem;
+  text-align: center;
+  color: #5d6f62;
+  background: #ffffff;
+  border: 1px dashed #b7c6b3;
+  border-radius: 10px;
+}
